@@ -8,7 +8,9 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma",
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
-print(states_of_america[45])
+# 50 states in total
+print(states_of_america[35])  # No error
+print(states_of_america[50])  # IndexError
 
 
 
